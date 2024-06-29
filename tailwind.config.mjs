@@ -14,6 +14,7 @@ export default {
         primary: "#006633",
         secondary: "#ff6600",
         oscure: "#141414",
+        negro: "#0B0B0B",
       },
     },
   },
