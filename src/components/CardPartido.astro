@@ -2,4 +2,251 @@
 
 ---
 
-<div></div>
+<div
+  class="bg-negro text-white rounded-lg shadow-lg p-6 w-[364px] h-[
+432px] m-10"
+>
+  <div class="text-center text-white font-light text-sm">Dom. 21:00</div>
+  <div class="flex items-center my-4 justify-evenly">
+    <div class="flex flex-col items-center">
+      <img
+        src="https://vectorflags.s3.amazonaws.com/flags/ca-circle-01.png"
+        alt="Canada"
+        class="w-10 h-10 rounded-full"
+      />
+      <span class="text-sm font-light">Canada</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="flex space-x-2 items-center">
+        <input
+          id="team1-score"
+          type="text"
+          value="0"
+          class="w-16 h-16 text-center bg-negro text-white rounded-2xl border-white border-2 text-5xl"
+        />
+        <span class="text-xl">-</span>
+        <input
+          id="team2-score"
+          type="text"
+          value="2"
+          class="w-16 h-16 text-center bg-negro text-white rounded-2xl border-white border-2 text-5xl"
+        />
+      </div>
+      <!-- <span class="bg-green-600 text-center rounded px-2 mt-2">Final 0-2</span> -->
+    </div>
+    <div class="flex flex-col items-center">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaMBS0tt52YOz-ir9Y5WOtEDlyhx7WuIiSw&s"
+        alt="Argentina"
+        class="w-10 h-10 rounded-full"
+      />
+      <span class="text-sm font-light">Argentina</span>
+    </div>
+  </div>
+
+  <div class="mt-4 flex flex-col">
+    <div class="flex justify-between items-center py-5">
+      <span class="text-sm font-light">Primer equipo en marcar</span>
+      <button id="card-cond1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="none"
+          ><rect width="19" height="19" x=".5" y=".5" fill="#0B0B0B" rx="9.5"
+          ></rect><rect
+            width="19"
+            height="19"
+            x=".5"
+            y=".5"
+            stroke="#fff"
+            rx="9.5"></rect><rect
+            width="10"
+            height="2"
+            x="5"
+            y="9"
+            fill="#fff"
+            rx="1"></rect><rect
+            width="10"
+            height="2"
+            x="9"
+            y="15"
+            fill="#fff"
+            rx="1"
+            transform="rotate(-90 9 15)"></rect></svg
+        ></button
+      >
+    </div>
+    <div class="flex justify-between items-center py-5">
+      <span class="text-sm font-light">Jugador/es en marcar</span>
+      <button id="card-cond2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="none"
+          ><rect width="19" height="19" x=".5" y=".5" fill="#0B0B0B" rx="9.5"
+          ></rect><rect
+            width="19"
+            height="19"
+            x=".5"
+            y=".5"
+            stroke="#fff"
+            rx="9.5"></rect><rect
+            width="10"
+            height="2"
+            x="5"
+            y="9"
+            fill="#fff"
+            rx="1"></rect><rect
+            width="10"
+            height="2"
+            x="9"
+            y="15"
+            fill="#fff"
+            rx="1"
+            transform="rotate(-90 9 15)"></rect></svg
+        ></button
+      >
+    </div>
+    <div class="flex justify-between items-center py-5">
+      <span class="text-sm font-light">Jugador del partido</span>
+      <button id="card-cond3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="none"
+          ><rect width="19" height="19" x=".5" y=".5" fill="#0B0B0B" rx="9.5"
+          ></rect><rect
+            width="19"
+            height="19"
+            x=".5"
+            y=".5"
+            stroke="#fff"
+            rx="9.5"></rect><rect
+            width="10"
+            height="2"
+            x="5"
+            y="9"
+            fill="#fff"
+            rx="1"></rect><rect
+            width="10"
+            height="2"
+            x="9"
+            y="15"
+            fill="#fff"
+            rx="1"
+            transform="rotate(-90 9 15)"></rect></svg
+        ></button
+      >
+    </div>
+  </div>
+
+  <div class="flex justify-evenly items-center mt-4">
+    <div class="flex items-center gap-3">
+      <img
+        src="https://vectorflags.s3.amazonaws.com/flags/ca-circle-01.png"
+        alt="Canada"
+        class="w-6 h-6 rounded-full"
+      />
+      <input
+        id="team1-shots"
+        type="text"
+        value="0"
+        class="w-9 h-9 text-center bg-negro text-white rounded-lg border-white border-2 text-xl"
+      />
+    </div>
+    <span class="text-sm font-light">Tiros al arco</span>
+    <div class="flex items-center gap-3">
+      <input
+        id="team2-shots"
+        type="text"
+        value="0"
+        class="w-9 h-9 text-center bg-negro text-white rounded-lg border-white border-2 text-xl"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaMBS0tt52YOz-ir9Y5WOtEDlyhx7WuIiSw&s"
+        alt="Argentina"
+        class="w-6 h-6 rounded-full"
+      />
+    </div>
+  </div>
+  <div class="flex justify-between items-center pt-5 mt-4">
+    <span class="text-sm font-light">Cambiar Comodin x2</span>
+    <button id="card-cond3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+        ><rect width="19" height="19" x=".5" y=".5" fill="#0B0B0B" rx="9.5"
+        ></rect><rect
+          width="19"
+          height="19"
+          x=".5"
+          y=".5"
+          stroke="#FF6600"
+          rx="9.5"></rect><rect
+          width="10"
+          height="2"
+          x="5"
+          y="9"
+          fill="#FF6600"
+          rx="1"></rect><rect
+          width="10"
+          height="2"
+          x="9"
+          y="15"
+          fill="#FF6600"
+          rx="1"
+          transform="rotate(-90 9 15)"></rect></svg
+      ></button
+    >
+  </div>
+  <!-- <div class="bg-orange-600 text-center rounded-lg mt-4 py-2">
+    Comodín x2 usado
+  </div> -->
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Obtener elementos de la DOM y hacer un casting a HTMLInputElement
+    const team1ScoreInput = document.getElementById(
+      "team1-score"
+    ) as HTMLInputElement;
+    const team2ScoreInput = document.getElementById(
+      "team2-score"
+    ) as HTMLInputElement;
+    const team1ShotsInput = document.getElementById(
+      "team1-shots"
+    ) as HTMLInputElement;
+    const team2ShotsInput = document.getElementById(
+      "team2-shots"
+    ) as HTMLInputElement;
+
+    // Función para guardar en localStorage
+    function saveToLocalStorage() {
+      const data = {
+        team1Score: team1ScoreInput.value,
+        team2Score: team2ScoreInput.value,
+        team1Shots: team1ShotsInput.value,
+        team2Shots: team2ShotsInput.value,
+      };
+
+      localStorage.setItem("predictionData", JSON.stringify(data));
+    }
+
+    // Cargar datos desde localStorage al cargar la página
+    const savedData = localStorage.getItem("predictionData");
+    if (savedData) {
+      const data = JSON.parse(savedData);
+      team1ScoreInput.value = data.team1Score;
+      team2ScoreInput.value = data.team2Score;
+      team1ShotsInput.value = data.team1Shots;
+      team2ShotsInput.value = data.team2Shots;
+    }
+
+    // Guardar datos en localStorage cuando los inputs cambien
+    team1ScoreInput.addEventListener("input", saveToLocalStorage);
+    team2ScoreInput.addEventListener("input", saveToLocalStorage);
+    team1ShotsInput.addEventListener("input", saveToLocalStorage);
+    team2ShotsInput.addEventListener("input", saveToLocalStorage);
+  });
+</script>
